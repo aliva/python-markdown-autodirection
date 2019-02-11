@@ -1,7 +1,10 @@
 # Python Markdown Auto Direction
 
-![](https://img.shields.io/pypi/v/markdown-autodirection.svg?style=flat)
-[![Build Status](https://travis-ci.org/aliva/python-markdown-autodirection.svg?branch=master)](https://travis-ci.org/aliva/python-markdown-autodirection)
+[![pypi](https://img.shields.io/pypi/v/markdown-autodirection.svg?style=flat)][pypi-url]
+[![Build Status](https://travis-ci.org/aliva/python-markdown-autodirection.svg?branch=master)][travis-url]
+
+[pypi-url]: https://pypi.org/project/markdown-autodirection/
+[travis-url]: https://travis-ci.org/aliva/python-markdown-autodirection
 
 Adds `dir="auto"` attribute to paragraphs,
 This will help browser to set text direction based on the content of current paragraphs
