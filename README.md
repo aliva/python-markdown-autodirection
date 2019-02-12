@@ -2,6 +2,7 @@
 
 [![pypi](https://img.shields.io/pypi/v/markdown-autodirection.svg?style=flat)][pypi-url]
 [![](https://img.shields.io/pypi/l/markdown-autodirection.svg?style=flat)][license-url]
+[![](https://img.shields.io/pypi/dm/markdown-autodirection.svg?style=flat)][pypi-url]
 [![Build Status](https://travis-ci.org/aliva/python-markdown-autodirection.svg?branch=master)][travis-url]
 
 [pypi-url]: https://pypi.org/project/markdown-autodirection/
