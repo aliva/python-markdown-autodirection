@@ -6,9 +6,10 @@ from markdown.treeprocessors import Treeprocessor
 
 class AutoDirectionTreeprocessor(Treeprocessor):
     def run(self, root):
-        blocks = root.iter('p')
-        for block in blocks:
-            block.set('dir', 'auto')
+        tags = ['p', 'ul', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+        for tag in tags:
+            for block in root.iter(tag):
+                block.set('dir', 'auto')
 
 
 class AutoDirectionExtension(Extension):
